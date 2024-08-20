@@ -1,0 +1,41 @@
+.box{
+    width: 300px;
+    background-color: rgb(19, 18, 20);
+    padding: 20px;
+    border: 5px solid rgb(125, 237, 6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "JetBrains Mono";
+    box-shadow: 8px 15px 12px rgb(70, 67, 67) ;
+
+}
+.box h1{
+    color: rgb(125, 237, 6);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 5px 8px rgb(70, 67, 67);
+}
+.box p{
+    color: aliceblue;
+}
+.box button {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(125, 237, 6);
+    background: black;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+}
+.box button:hover{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(125, 237, 6);
+    background:rgb(125, 237, 6);
+    color: rgb(17, 18, 19);
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+}
